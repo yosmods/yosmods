@@ -1,16 +1,23 @@
-## Hi there 👋
+# Installing
+```sh
+git clone https://github.com/yosmods/yosmods.git
+```
+# Usage
+```sh
+python parse.py -n <nik>
+```
+# Example
+```sh
+python nik_parse.py -n 1234567891234567
+```
+# Help output
+```sh
+$ python parse.py --help
+usage: parse.py [-h] -n NIK
 
-<!--
-**yosmods/yosmods** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+NIK Parser
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+options:
+  -h, --help         show this help message and exit
+  -n NIK, --nik NIK  Nomor Induk Kependudukan
+ ```
